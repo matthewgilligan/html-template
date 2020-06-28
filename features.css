@@ -5,13 +5,16 @@ body {
     margin: 0;
 }
 
-.nav {
+.container {
     width: 90%;
     margin: 0 auto;
+}
+
+.nav {
     border-bottom: 2px solid;
 }
 
-.nav-top {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +25,10 @@ body {
 .nav-bottom {
     display: block;
     height: 60px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.search {
+.header-search {
     height: 16px;
     display: flex;
     flex: 1;
@@ -33,13 +36,13 @@ body {
     z-index: 2000;
 }
 
-.title {
+.header-title {
     font-family: Lexend Tera;
     font-size: 60px;
     overflow: hidden;
 }
 
-.socials {
+.header-socials {
     display: flex;
     flex: 1;
     justify-content: flex-end;
@@ -47,7 +50,7 @@ body {
     z-index: 1;
 }
 
-.nav-list {
+.nav-bottom-list {
     display: flex;
     justify-content: space-between;
     max-width: 960px;
@@ -59,24 +62,38 @@ body {
 .feature-nav {
     position: sticky;
     top: 0px;
-    margin: 0 auto;
+    background-color: white;
 }
 
 .feature-nav-title {
-    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 18px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-nav-title p {
+  font-weight: bold;
 }
 
 .feature-nav-bottom {
     display: block;
     height: 60px;
-    font-size: 20px;
 }
 
 .feature-nav-list {
     display: flex;
     justify-content: space-between;
-    max-width: 960px;
+    max-width: 600px;
     margin: 0 auto;
     text-transform: uppercase;
     list-style-type: none;
+    font-size: 14px;
+}
+
+.space {
+    margin-left: 300px;
 }
