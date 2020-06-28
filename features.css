@@ -75,6 +75,11 @@ body {
     align-items: center;
 }
 
+.title-japanese {
+    color: rgba(0, 0, 0, 0.05) !important;
+    font-size: 72px;
+}
+
 .feature-nav-title p {
   font-weight: bold;
 }
