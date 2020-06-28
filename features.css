@@ -1,4 +1,58 @@
-h1 {
-  font-family: Lexend Tera;
-  font-size: 52px;
+body {
+  font-family: Montserrat;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    height: 100px;
+}
+
+.nav-bottom {
+  display: block;
+  height: 60px;
+  font-size: 20px;
+  font-style: 300;
+}
+
+.search {
+    height: 16px;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    z-index: 2000;
+}
+
+.title {
+    font-family: Lexend Tera;
+    font-size: 60px;
+    overflow: hidden;
+}
+
+.socials {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    max-height: 16px;
+    z-index: 1;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    list-style-type: none;
 }
