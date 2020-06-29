@@ -57,6 +57,7 @@ body {
     margin: 0 auto;
     text-transform: uppercase;
     list-style-type: none;
+    font-weight: lighter;
 }
 
 .feature-nav {
@@ -73,10 +74,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top:20px;
 }
 
 .title-japanese {
-    color: rgba(0, 0, 0, 0.05) !important;
+    color: rgba(0, 0, 0, 0.03) !important;
     font-size: 72px;
     position: absolute;
 }
@@ -91,8 +93,9 @@ body {
 
 .feature-nav-bottom {
     display: block;
-    height: 60px;
-    margin-top: 8px;
+    height: 50px;
+    padding-top: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .feature-nav-list {
@@ -113,6 +116,9 @@ body {
   color: black;
 }
 
-.space {
-    margin-left: 300px;
+.main-feature {
+    background-image: url('assets/ichiko.png');
+    height: calc(100vh - 178px);
+    width: 65%;
+    background-size: cover;
 }
