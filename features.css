@@ -117,7 +117,7 @@ body {
 }
 
 .main-feature {
-    background-image: url('assets/ichiko.png');
+    background-image: linear-gradient(rgba(0,0,0,0.0), 80%, rgba(0,0,0,0.8)), url('assets/ichiko.png');
     height: calc(100vh - 178px);
     width: 65%;
     background-size: cover;
