@@ -78,15 +78,21 @@ body {
 .title-japanese {
     color: rgba(0, 0, 0, 0.05) !important;
     font-size: 72px;
+    position: absolute;
+}
+
+.title-english {
+    position: absolute;
 }
 
 .feature-nav-title p {
-  font-weight: bold;
+
 }
 
 .feature-nav-bottom {
     display: block;
     height: 60px;
+    margin-top: 8px;
 }
 
 .feature-nav-list {
@@ -97,6 +103,14 @@ body {
     text-transform: uppercase;
     list-style-type: none;
     font-size: 14px;
+}
+
+.feature-nav-item {
+  color: grey;
+}
+
+.active, .feature-nav-item:hover {
+  color: black;
 }
 
 .space {
