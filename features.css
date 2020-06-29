@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
 }
 
@@ -109,11 +109,16 @@ body {
 }
 
 .feature-nav-item {
-  color: grey;
+    color: grey;
 }
 
 .active, .feature-nav-item:hover {
-  color: black;
+    color: black;
+    cursor: pointer;
+}
+
+.top-features {
+    display: flex;
 }
 
 .main-feature {
@@ -121,4 +126,32 @@ body {
     height: calc(100vh - 178px);
     width: 65%;
     background-size: cover;
+    position: relative;
+}
+
+.main-feature-details {
+    width: 95%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-feature-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.main-feature-subtitle{
+    color: white;
+}
+
+.features-scroll {
+    height: calc(100vh - 178px);
+    width: 35%;
+    overflow-y: scroll;
+}
+
+.secondary-feature-image {
+  height: 100px;
 }
