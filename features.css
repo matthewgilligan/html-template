@@ -166,6 +166,7 @@ body {
     height: 424px;
     width: 95%;
     float:right;
+    margin-bottom: 40px;
 }
 
 .secondary-feature-image {
@@ -182,9 +183,36 @@ body {
     margin-top: 20px;
 }
 
-.secondary-feature-details__title{
+.secondary-feature-details__title {
     font-weight: bolder;
     font-size: 20px;
     margin-top: 12px;
+    width: 90%;
+    line-height: 28px;
 }
 
+.secondary-feature-details__info {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+
+.secondary-feature-details__contributor {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.secondary-feature-details__time {
+    color: rgba(0, 0, 0, 0.3) !important;
+    margin-top: 5px;
+}
+
+.bottom {
+  margin-bottom: 0 !important;
+}
+
+.feature {
+    height: 400px;
+    width: 60%;
+    background-color: red;
+}
