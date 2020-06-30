@@ -64,6 +64,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: white;
+    z-index: 10000;
 }
 
 .feature-nav-title {
@@ -211,8 +212,25 @@ body {
   margin-bottom: 0 !important;
 }
 
+.features-rest {
+  margin-top: 40px;
+}
+
 .feature {
     height: 400px;
+    width: 65%;
+    display: flex;
+}
+
+.feature__image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
     width: 60%;
-    background-color: red;
+}
+
+.feature__details {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    margin-left: 35px;
 }
