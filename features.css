@@ -249,3 +249,19 @@ body {
     margin-top: 16px;
     line-height: 22px
 }
+
+.feature__details__info {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 112px;
+}
+
+.feature__details__contributor {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.feature__details__time {
+    color: rgba(0, 0, 0, 0.3) !important;
+    margin-top: 5px;
+}
