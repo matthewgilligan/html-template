@@ -58,6 +58,7 @@ body {
     text-transform: uppercase;
     list-style-type: none;
     font-weight: lighter;
+    padding-top: 20px;
 }
 
 .feature-nav {
