@@ -234,6 +234,7 @@ body {
     border-top: 2px solid;
     margin-left: 45px;
     width: calc(45% - 35px);
+    position: relative;
 }
 
 .feature__details__title {
@@ -253,7 +254,9 @@ body {
 .feature__details__info {
     font-size: 14px;
     text-transform: uppercase;
-    margin-top: 112px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8px;
 }
 
 .feature__details__contributor {
